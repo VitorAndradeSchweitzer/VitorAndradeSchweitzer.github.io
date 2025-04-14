@@ -15,6 +15,6 @@ function scrollto(id){
         } else {
         sidebar.style.display = ""
         sidebar.style.width = ""
-        maincontent.style.display = ""
+        maincontent.style.display = "";
         }
     }
