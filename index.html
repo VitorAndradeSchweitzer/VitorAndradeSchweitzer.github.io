@@ -29,12 +29,18 @@
             <a href="/html_dict.html" class="link-no-detail">
                 Dicionário
             </a>
+
+
+</div>
+<div class="navbartoggler" onclick="shownavbar()">
+    <img class="nav-bar-logo" src="images\vitor-logo.JPG" alt="">
+    <svg width="24px" height="24px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M1 5H15V7H1V5Z" fill="#f75862"></path> <path d="M1 9H15V11H1V9Z" fill="#f75862"></path> <path d="M1 13H15V15H1V13Z" fill="#f75862"></path> <path d="M1 1H15V3H1V1Z" fill="#f75862"></path> </g></svg>
 </div>
     </header>
 </section>
 
-<div class="d-flex h-100">
-        <aside class="sidebar">
+<div class="d-flex h-100" id="main-content">
+        <aside class="sidebar" id="sidebar">
             <img src="https://avatars.githubusercontent.com/u/170037226?v=4" alt="" class="profile-picture">
             <h2 class="text-center">Vitor Andrade</h2>
             <ul>
@@ -115,10 +121,5 @@
 </section>
 </body>
 
-<script>
-    function scrollto(id){
-    element = document.getElementById(id)
-    element.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
-    }
-</script>
+<script src="script.js"></script>
 </html>
